@@ -1,0 +1,4 @@
+hello
+world
+Linux
+PWD=/Users/rcadmin/trygit/test2

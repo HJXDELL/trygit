@@ -1,0 +1,6 @@
+this i
+sis
+pwd=$(pwd)
+d
+file
+PWD=/Users/rcadmin/trygit/test2
