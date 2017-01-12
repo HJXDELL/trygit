@@ -1,1 +1,60 @@
-this is ccccccccccc
+import codecs
+import json
+from biplist import *
+import os
+
+
+#Modifly whatsNew
+def modiflyWhatsNew(fname):
+	try:
+	 	plist = readPlist(fname);
+		result = plist['BRAND_INFO']['RingCentral']
+	
+	except InvalidPlistException, e:
+		print "Not a Plist or Plist Invalid:",e
+
+#modifly plist
+	if result['EnableWhatsNew']==True:
+		result['EnableWhatsNew']=False
+	
+	print result['EnableWhatsNew']
+
+
+	try:
+		writePlist(plist,fname)
+	except (InvalidPlistException,NotBinaryPlistException), e:
+		print "Something bad happened:",e
+
+
+
+#replace pre_env XMN_LAB
+def replace(fname, idx):
+	with codecs.open(fname, 'r', encoding='GBK') as fp:
+		data = json.load(fp)
+		objs = data['data']
+
+		for o in objs:
+			if o['name'] == 'XMN-Lab':
+				o['id'] = 1
+			elif o['id'] == 1 and o['name'] != 'XMN_LAB':
+				o['id'] = idx
+
+		# json.dump(data, fp)
+
+	with codecs.open(fname, 'w', encoding='GBK') as fp:
+		json.dump(data, fp, indent=4)
+
+
+#Run
+
+path = os.path.abspath(os.path.join(os.path.dirname('pathForTA.py'),os.path.pardir))
+print path
+fileSettingPlist = path+'/Glip/Settings.plist'
+print fileSettingPlist 
+filePreEnv = path+'/Glip/Resource/pre_env.txt'
+print filePreEnv
+
+replace(filePreEnv, 8)
+modiflyWhatsNew(fileSettingPlist)
+
+
