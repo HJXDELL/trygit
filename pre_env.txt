@@ -1,0 +1,123 @@
+{
+    "data": [
+        {
+            "rc_env": {
+                "apiServer": "https://api.ringcentral.com", 
+                "secret": "", 
+                "redirectApi": "https%3A%2F%2Fglip.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile&brand_id=1210", 
+                "clientId": "PSWnc01iRgiU4z-TWDW3qg"
+            }, 
+            "id": 8, 
+            "glip_env": {
+                "apiServer": "https://app.glip.com", 
+                "signInWithAttDefaultUrl": "https://api.ringcentral.com/restapi/oauth/authorize?client_id=PSWnc01iRgiU4z-TWDW3qg&response_type=code&state=fdfc331a838323bee4978264463fbdbe%2Fatt&redirect_uri=https%3A%2F%2Fglip.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile&brand_id=3420&force=true&ui_options=-hide_tos", 
+                "signInWithRcDefaultUrl": "https://api.ringcentral.com/restapi/oauth/authorize?client_id=PSWnc01iRgiU4z-TWDW3qg&response_type=code&state=fdfc331a838323bee4978264463fbdbe&redirect_uri=https%3A%2F%2Fglip.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile&brand_id=1210&force=true", 
+                "cacheServer": "https://cache.glip.com", 
+                "uploadServer": "https://api.glip.com/upload"
+            }, 
+            "name": "Glip"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://api.devtest.ringcentral.com", 
+                "secret": "", 
+                "redirectApi": "https%3A%2F%2Fglipqa.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile", 
+                "clientId": "li8FwgHyTiaQ14-w5wnohQ"
+            }, 
+            "id": 2, 
+            "glip_env": {
+                "apiServer": "https://app.glipqa.com", 
+                "signInWithAttDefaultUrl": "", 
+                "signInWithRcDefaultUrl": "", 
+                "cacheServer": "https://cache.glipqa.com", 
+                "uploadServer": "https://app.glipqa.com/upload"
+            }, 
+            "name": "QA"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "secret": "", 
+                "redirectApi": "https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile", 
+                "clientId": "9ILFt1PlRni5_4flx9ujGA"
+            }, 
+            "id": 1, 
+            "glip_env": {
+                "apiServer": "https://aws21-g43-udp01.asialab.glip.net:23304", 
+                "signInWithAttDefaultUrl": "http://api-up.lab.rcch.ringcentral.com/restapi/oauth/authorize?client_id=9ILFt1PlRni5_4flx9ujGA&response_type=code&state=fdfc331a838323bee4978264463fbdbe%2Fatt&redirect_uri=https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile&brand_id=3420&force=true&ui_options=-hide_tos", 
+                "signInWithRcDefaultUrl": "http://api-up.lab.rcch.ringcentral.com/restapi/oauth/authorize?client_id=9ILFt1PlRni5_4flx9ujGA&response_type=code&state=fdfc331a838323bee4978264463fbdbe&redirect_uri=https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile&brand_id=1210&force=true", 
+                "cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23304", 
+                "uploadServer": "https://aws21-g43-udp01.asialab.glip.net:23304/upload"
+            }, 
+            "name": "XMN-Lab"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "secret": "", 
+                "redirectApi": "https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile", 
+                "clientId": "9ILFt1PlRni5_4flx9ujGA"
+            }, 
+            "id": 4, 
+            "glip_env": {
+                "apiServer": "https://api.aws21-g43-udp01.asialab.glip.net:23304", 
+                "signInWithAttDefaultUrl": "http://api-up.lab.rcch.ringcentral.com/restapi/oauth/authorize?client_id=9ILFt1PlRni5_4flx9ujGA&response_type=code&state=fdfc331a838323bee4978264463fbdbe%2Fatt&redirect_uri=https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile&brand_id=3420&force=true&ui_options=-hide_tos", 
+                "signInWithRcDefaultUrl": "http://api-up.lab.rcch.ringcentral.com/restapi/oauth/authorize?client_id=9ILFt1PlRni5_4flx9ujGA&response_type=code&state=fdfc331a838323bee4978264463fbdbe&redirect_uri=https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile&brand_id=1210&force=true&display=touch", 
+                "cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23304", 
+                "uploadServer": "https://api.aws21-g43-udp01.asialab.glip.net:23304/upload"
+            }, 
+            "name": "XMN-NewUI-Lab"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://platform.ringcentral.com", 
+                "secret": "", 
+                "redirectApi": "https%3A%2F%2Fglip.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile", 
+                "clientId": "PSWnc01iRgiU4z-TWDW3qg"
+            }, 
+            "id": 5, 
+            "glip_env": {
+                "apiServer": "https://api.glipdemo.com", 
+                "signInWithAttDefaultUrl": "https://api.uat.ringcentral.com/restapi/oauth/authorize?client_id=YkhHXhg7Sj-FJy12UU5NEQ&response_type=code&state=fdfc331a838323bee4978264463fbdbe%2Fatt&redirect_uri=https%3A%2F%2Fglipqa.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile&brand_id=3420&force=true&ui_options=-hide_tos", 
+                "signInWithRcDefaultUrl": "https://platform.ringcentral.com/restapi/oauth/authorize?client_id=PSWnc01iRgiU4z-TWDW3qg&response_type=code&state=fdfc331a838323bee4978264463fbdbe&redirect_uri=https%3A%2F%2Fglip.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile&brand_id=1210", 
+                "cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23304", 
+                "uploadServer": "https://api.aws21-g43-udp01.asialab.glip.net:23304/upload"
+            }, 
+            "name": "GlipDemo"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-devfre.lab.rcch.ringcentral.com", 
+                "secret": "", 
+                "redirectApi": "https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile", 
+                "clientId": "9ILFt1PlRni5_4flx9ujGA"
+            }, 
+            "id": 6, 
+            "glip_env": {
+                "apiServer": "https://aws21-g43-udp01.asialab.glip.net:23304", 
+                "signInWithAttDefaultUrl": "http://api-devfre.lab.rcch.ringcentral.com/restapi/oauth/authorize?client_id=9ILFt1PlRni5_4flx9ujGA&response_type=code&state=fdfc331a838323bee4978264463fbdbe%2Fatt&redirect_uri=https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile&brand_id=3420&force=true&ui_options=-hide_tos", 
+                "signInWithRcDefaultUrl": "http://api-devfre.lab.rcch.ringcentral.com/restapi/oauth/authorize?client_id=9ILFt1PlRni5_4flx9ujGA&response_type=code&state=fdfc331a838323bee4978264463fbdbe&redirect_uri=https%3a%2f%2faws21-g43-udp01.asialab.glip.net%3a23304%2fapi%2fno-auth%2frc-signon%2Fmobile&brand_id=1210&force=true", 
+                "cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23304", 
+                "uploadServer": "https://aws21-g43-udp01.asialab.glip.net:23304/upload"
+            }, 
+            "name": "DEV_FRE_XIA"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://platform.ringcentral.com", 
+                "secret": "", 
+                "redirectApi": "https%3A%2F%2Fglip.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile", 
+                "clientId": "PSWnc01iRgiU4z-TWDW3qg"
+            }, 
+            "id": 7, 
+            "glip_env": {
+                "apiServer": "https://ops.glip.net", 
+                "signInWithAttDefaultUrl": "https://api.uat.ringcentral.com/restapi/oauth/authorize?client_id=YkhHXhg7Sj-FJy12UU5NEQ&response_type=code&state=fdfc331a838323bee4978264463fbdbe%2Fatt&redirect_uri=https%3A%2F%2Fglipqa.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile&brand_id=3420&force=true&ui_options=-hide_tos", 
+                "signInWithRcDefaultUrl": "https://platform.ringcentral.com/restapi/oauth/authorize?client_id=PSWnc01iRgiU4z-TWDW3qg&response_type=code&state=fdfc331a838323bee4978264463fbdbe&redirect_uri=https%3A%2F%2Fglip.com%2Fapi%2Fno-auth%2Frc-signon%2Fmobile&brand_id=1210", 
+                "cacheServer": "https://cache.ops.glip.net", 
+                "uploadServer": "https://ops.glip.net/upload"
+            }, 
+            "name": "OPS_GLIP"
+        }
+    ]
+}
